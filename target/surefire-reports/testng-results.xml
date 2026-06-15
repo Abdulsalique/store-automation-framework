@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-15T10:37:05 CEST" name="API Suite" finished-at="2026-06-15T10:37:14 CEST" duration-ms="8880">
+    <groups>
+    </groups>
+    <test started-at="2026-06-15T10:37:05 CEST" name="API Tests" finished-at="2026-06-15T10:37:14 CEST" duration-ms="8880">
+      <class name="tests.OrderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OrderTest@7714e963]" started-at="2026-06-15T10:37:10 CEST" name="setup" finished-at="2026-06-15T10:37:10 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createOrderTest()[pri:0, instance:tests.OrderTest@7714e963]" started-at="2026-06-15T10:37:10 CEST" name="createOrderTest" finished-at="2026-06-15T10:37:14 CEST" duration-ms="4192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+      </class> <!-- tests.OrderTest -->
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.InventoryTest@6a192cfe]" started-at="2026-06-15T10:37:05 CEST" name="setup" finished-at="2026-06-15T10:37:06 CEST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getInventory()[pri:0, instance:tests.InventoryTest@6a192cfe]" started-at="2026-06-15T10:37:06 CEST" name="getInventory" finished-at="2026-06-15T10:37:10 CEST" duration-ms="3950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInventory -->
+      </class> <!-- tests.InventoryTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Suite -->
+</testng-results>
