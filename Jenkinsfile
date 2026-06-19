@@ -7,8 +7,16 @@ pipeline {
     }
 
     stages {
+
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
         stage('Build & Test') {
             steps {
+                bat 'mvn -v'
                 bat 'mvn clean test'
             }
         }
