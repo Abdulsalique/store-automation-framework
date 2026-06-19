@@ -8,11 +8,15 @@ pipeline {
 
     stages {
 
+       
+        
         stage('Checkout') {
-            steps {
-                git 'https://github.com/Abdulsalique/store-automation-framework.git'
-            }
-        }
+    steps {
+        git branch: 'main',
+            url: 'https://github.com/Abdulsalique/store-automation-framework.git'
+    }
+}
+        
 
         stage('Build & Test') {
             steps {
