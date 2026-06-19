@@ -7,14 +7,6 @@ pipeline {
     }
 
     stages {
-
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/Abdulsalique/store-automation-framework.git'
-            }
-        }
-
         stage('Build & Test') {
             steps {
                 bat 'mvn clean test'
